@@ -1,0 +1,95 @@
+html {
+    font-size: 16px;
+    cursor: url(images/scissor.gif), auto;
+    height: 100%;
+  }
+  
+  p {
+    margin: 100px;
+    margin-left: 200px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: justify;
+  }
+
+  .nav {
+    margin-bottom: 60px;
+    margin-top: 40px;
+    user-select: none;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    font-weight: bold;
+
+  }
+
+  .nav-link:hover{
+    color: white;
+    background-color: black;
+  }
+
+  .main{
+    display: grid;
+    grid-template-columns: repeat(1,auto);
+    grid-template-rows: repeat(1,auto);
+    position: relative;
+  }
+
+  .section{
+      font-family: 'Courier New', Courier, monospace;
+      background: white;
+      height: 650px;
+      width: 1420px;
+      overflow: scroll;
+      overflow-y: scroll;
+      margin-top: -50px;
+      text-align: justify;
+      
+  }
+
+  .wrapper {
+    background: white;
+    height: 650px;
+  }
+
+  .section:hover{
+    filter: invert(1);
+    height: 650px;
+  }
+
+  .nav-link{
+    background-color: white;
+    color: black;
+    border: 1px;
+    border-color: black;
+    padding: 5px;
+    border-radius: 3px;
+    margin-right: 10px;
+    margin-top: 80px;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+
+  a {
+    color: black;
+    text-decoration: none;
+  }
+
+  hr{
+    margin-top: 30px;
+    border-top: 4px dashed black;
+  }
+
+  .edsc-png{
+    position: relative;
+    top: 1%;
+    left: 27%;
+    width: 650px;
+    height: auto;
+    z-index: 10;
+  }
+
+  .aboutt-png{
+    width: 650px;
+    height: auto;
+    margin-left: 380px;
+  }

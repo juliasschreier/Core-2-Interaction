@@ -1,0 +1,134 @@
+* {
+	box-sizing: border-box;
+}
+
+body{
+	background-image: url(../2.jpg);
+	background-size: cover;
+}
+
+html {
+	color:rgb(0, 76, 128);
+	font-family: "Loved by the King";
+	
+}
+
+.output {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	color: rgb(0, 76, 128);
+}
+
+.image {
+	width: 100%;
+	max-width: 400px;
+	margin-top:-250px;
+	opacity: 1;
+}
+
+.controls {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	padding: 20px;
+	color: rgb(0, 76, 128);
+}
+
+.controls-grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	gap: 10px;
+	width: 100%;
+	max-width: 400px;
+	margin: auto;
+}
+
+button[name="submit"] {
+	grid-column: span 3;
+	font-family: 'Courier New', Courier, monospace;
+	color: rgb(78, 121, 207);
+	font-size: 20px;
+	border-radius: 7px;
+	background-color: white;
+	padding: 10px;
+
+}
+
+@keyframes fadeIn {
+	from { opacity: 0; }
+	to { opacity: 1; }
+}
+
+h1{
+
+    text-align: center;
+    color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: lighter;
+}
+
+h2{
+	text-align: center;
+    color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: lighter;
+	font-size: 20px;
+}
+
+.typewriter h1 {
+	margin-top: 20px;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid white; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    margin-left: 30px;
+    letter-spacing: .15em; /* Adjust as needed */
+    visibility: visible;
+    animation: 
+      typing 2.5s steps(40, end),
+      blink-caret .75s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: white; }
+  }
+
+
+  .nav{
+    user-select: none;
+    text-align: right;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: -850px;
+
+  }
+
+  .nav-link{
+    background-color: white;
+	opacity: 50%;
+    color: rgb(45, 143, 212);
+    border: 5px;
+    padding: 10px;
+    border-radius: 7px;
+    margin-right: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    text-decoration: NONE;
+  }
+
+  .nav-link:hover{
+    border: 1px solid #e5e7eb;
+    color: white;
+    background-color: transparent;
+
+  }

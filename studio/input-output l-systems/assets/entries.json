@@ -1,0 +1,178 @@
+[
+    {
+
+      "filename": "W-20-1.png",
+      "name": "wavy",
+      "degree": "20",
+      "iteration": "1",
+      "paragraphs": ["bla bla bla"]
+    },
+    {
+    
+      "filename": "W-20-2.png",
+      "name": "wavy",
+      "degree": "20",
+      "iteration": "2"
+    },
+    {
+     
+      "filename": "W-20-3.png",
+      "name": "wavy",
+      "degree": "20",
+      "iteration": "3"
+    },
+    {
+     
+      "filename": "W-20-4.png",
+      "name": "wavy",
+      "degree": "20",
+      "iteration": "4"
+    },
+    {
+     
+      "filename": "W-20-5.png",
+      "name": "wavy",
+      "degree": "20",
+      "iteration": "5"
+    },
+    {
+
+      "filename": "TW-20-1.png",
+      "name": "twiggy",
+      "degree": "20",
+      "iteration": "1"
+    },
+    {
+    
+      "filename": "TW-20-2.png",
+      "name": "twiggy",
+      "degree": "20",
+      "iteration": "2"
+    },
+    {
+     
+      "filename": "TW-20-3.png",
+      "name": "twiggy",
+      "degree": "20",
+      "iteration": "3"
+    },
+    {
+     
+      "filename": "TW-20-4.png",
+      "name": "twiggy",
+      "degree": "20",
+      "iteration": "4"
+    },
+    {
+     
+      "filename": "TW-20-5.png",
+      "name": "twiggy",
+      "degree": "20",
+      "iteration": "5"
+    },
+    {
+
+      "filename": "T-20-1.png",
+      "name": "tall",
+      "degree": "20",
+      "iteration": "1"
+    },
+    {
+    
+      "filename": "T-20-2.png",
+      "name": "tall",
+      "degree": "20",
+      "iteration": "2"
+    },
+    {
+     
+      "filename": "T-20-3.png",
+      "name": "tall",
+      "degree": "20",
+      "iteration": "3"
+    },
+    {
+     
+      "filename": "T-20-4.png",
+      "name": "tall",
+      "degree": "20",
+      "iteration": "4"
+    },
+    {
+     
+      "filename": "T-20-5.png",
+      "name": "tall",
+      "degree": "20",
+      "iteration": "5"
+    },
+    {
+
+      "filename": "S-20-1.png",
+      "name": "stoch",
+      "degree": "20",
+      "iteration": "1"
+    },
+    {
+    
+      "filename": "S-20-2.png",
+      "name": "stoch",
+      "degree": "20",
+      "iteration": "2"
+    },
+    {
+     
+      "filename": "S-20-3.png",
+      "name": "stoch",
+      "degree": "20",
+      "iteration": "3"
+    },
+    {
+     
+      "filename": "S-20-4.png",
+      "name": "stoch",
+      "degree": "20",
+      "iteration": "4"
+    },
+    {
+     
+      "filename": "S-20-5.png",
+      "name": "stoch",
+      "degree": "20",
+      "iteration": "5"
+    },
+    {
+
+      "filename": "F-20-1.png",
+      "name": "fuzzy",
+      "degree": "20",
+      "iteration": "1"
+    },
+    {
+    
+      "filename": "F-20-2.png",
+      "name": "fuzzy",
+      "degree": "20",
+      "iteration": "2"
+    },
+    {
+     
+      "filename": "F-20-3.png",
+      "name": "fuzzy",
+      "degree": "20",
+      "iteration": "3"
+    },
+    {
+     
+      "filename": "F-20-4.png",
+      "name": "fuzzy",
+      "degree": "20",
+      "iteration": "4"
+    },
+    {
+     
+      "filename": "F-20-5.png",
+      "name": "fuzzy",
+      "degree": "20",
+      "iteration": "5"
+    }
+  ]

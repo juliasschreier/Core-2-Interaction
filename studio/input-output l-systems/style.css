@@ -1,0 +1,122 @@
+body{
+    background-image: url(back3.jpg);
+    background-size: cover;
+
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(5, 150px);
+    justify-content: center;
+    margin-top: 40px;
+    margin-left: 100px;
+}
+
+.g{
+    grid-column: auto;
+    height: 110px;
+    justify-content: center;
+}
+
+.g img{
+    width: 100px;
+}
+
+
+h1{
+
+    text-align: center;
+    color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: lighter;
+}
+
+h2{
+  text-align: center;
+  color: aliceblue;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: lighter;
+  font-size: 30px;
+  margin-top: 10px;
+
+
+}
+.typewriter h1 {
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid white; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    font-size: 40px;
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    margin-left: 30px;
+    letter-spacing: .15em; /* Adjust as needed */
+    visibility: visible;
+    animation: 
+      typing 2.5s steps(40, end),
+      blink-caret .75s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: white; }
+  }
+  
+  .typewriter2 h1 {
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid white; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin-left: 30px;
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+      typing 2.5s steps(40, end) 2.5s forwards,
+      blink-caret 1.75s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: white; }
+  }
+
+
+  .nav{
+    user-select: none;
+    text-align: right;
+    font-family: 'Courier New', Courier, monospace;
+    justify-content: center;
+    margin-right: 560px;
+    margin-top: 20px;
+
+  }
+
+  .nav-link{
+    background-color: white;
+    opacity: 50%;
+    color: rgb(45, 143, 212);
+    border: 5px;
+    padding: 10px;
+    border-radius: 7px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    text-decoration: NONE;
+    text-align: center;
+  }
+
+  .nav-link:hover{
+    border: 1px solid #e5e7eb;
+    color: white;
+    background-color: transparent;
+
+  }
